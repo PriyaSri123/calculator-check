@@ -11,14 +11,6 @@
     <artifactId>sonar-scanner-api</artifactId>
     <version>2.16.3.1081</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
-<dependency>
-    <groupId>org.sonarsource.sonarqube</groupId>
-    <artifactId>sonar-plugin-api</artifactId>
-    <version>9.4.0.54424</version>
-    <scope>provided</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -28,7 +20,7 @@
 <dependency>
     <groupId>org.sonarsource.scanner.maven</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
-    <version>4.0.0.4121</version>
+    <version>3.8.0.2131</version>
 </dependency>
  </dependencies>
 </project>
