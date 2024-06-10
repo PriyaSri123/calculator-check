@@ -1,7 +1,10 @@
 package com.verify;
-import org.junit.Assert;
-import org.junit.Test;
 
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import com.one.Calculator;
 
 public class CalculatorTest{
