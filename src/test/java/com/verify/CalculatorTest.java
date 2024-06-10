@@ -1,6 +1,6 @@
 package com.verify;
 
-//import org.testng.Assert;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -17,8 +17,7 @@ public class CalculatorTest{
 		int b= 20;
 		int exp_res = a+b;
 		int res= cal.add(10, 20);
-		Reporter.log(res);
-		//Assert.assertEquals(exp_res, res);
+		Assert.assertEquals(exp_res, res);
 	}
 	@Test
 	public void subcheck()
@@ -27,8 +26,7 @@ public class CalculatorTest{
 		int b= 20;
 		int exp_res = a-b;
 		int res= cal.sub(30, 20);
-		Reporter.log(res);
-		//Assert.assertEquals(exp_res, res);
+		Assert.assertEquals(exp_res, res);
 		
 	}
 	@Test
@@ -38,8 +36,7 @@ public class CalculatorTest{
 		int b= 20;
 		int exp_res = a*b;
 		int res= cal.mul(30, 20);
-		Reporter.log(res);
-		//Assert.assertEquals(exp_res, res);
+		Assert.assertEquals(exp_res, res);
 	}
 	@Test
 	public void divcheck()
@@ -56,8 +53,7 @@ public class CalculatorTest{
 			System.out.println(e.getMessage());
 		}
 		int res= cal.div(6, 2);
-		Reporter.log(res);
-		//Assert.assertEquals(exp_res, res);
+		Assert.assertEquals(exp_res, res);
 	}
 	
 }
